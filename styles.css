@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+  
+body {
+ text-align: center;
+ background-image: url(./assets/img/space.jpg);
+}
+
+.list {
+  width: 80%;
+  margin: auto;
+}
+  
+ul {
+  list-style: none;
+  /* width: 80%;
+  margin: auto; */
+}
+
+li:nth-child(even) {
+  background-color: #ccc;
+}
+
+li:nth-child(odd) {
+  background-color: #f4f4f4;
+}
+
+li {
+  padding: 40px;
+  margin: 20px 0 20px 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.heading, .about {
+  color: white;
+}
